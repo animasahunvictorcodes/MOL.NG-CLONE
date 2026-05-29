@@ -157,7 +157,7 @@ nav > a > img {
 #usd { color: white; background-color: black; }
 
 .main {
-    background-image: url(/images/Header-Image-1.jpg);
+    background-image: url(images/Header-Image-1.jpg);
     background-size: cover;
     background-position: center;
     min-height: 550px;
