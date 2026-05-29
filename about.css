@@ -1,0 +1,110 @@
+.about-top{
+    background-image: url(images/image-15.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    text-align: center;
+    /* padding: 120px 40px; */
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-top h3{
+    color: white;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+.about-top p{
+    color: white;
+    font-size: 20px;
+}
+
+.about-talk{
+    padding: 60px;
+    margin: 0;
+}
+
+.about-yap{
+    display: flex;
+    gap: 50px;
+    padding: 0;
+    /* justify-content: space-between; */
+}
+
+.about-yap div{
+    flex: 1;
+}
+
+.about-talk h4{
+    color: rgba(0, 0, 0, 0.808);
+    font-size: 30px;
+    font-weight: 200;
+    margin-bottom: 0;
+}
+
+.about-yap div p{
+    color: rgba(0, 0, 0, 0.651);
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.about-yap div img{
+    margin-left: auto;
+}
+
+.about-talk-foot{
+    background-color: rgba(0, 0, 0, 0.06);
+    padding: 10px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 70px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.about-talk-foot p{
+    color: rgba(0, 0, 0, 0.8);
+    /* width: 60%; */
+    font-size: 16px;
+    line-height: 25px;
+}
+
+.about-talk-foot a{
+    background-color: black;
+    text-decoration: none;
+    color: white;
+    padding: 10px 30px;
+    border-radius: 15px;
+    height: fit-content;
+    width: fit-content;
+}
+
+.divider{
+    background-color: rgba(0, 0, 0, 0.06);
+    height: 100px;
+    width: 100%;
+}
+
+@media (max-width: 850px) {
+    .about-yap{
+        display: flex;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .about-yap > div:last-child{
+        order: 0;
+    }
+
+    .about-talk-foot{
+        flex-direction: column;
+    }
+
+    .about-talk{
+        padding: 20px;
+    }
+}
